@@ -1,4 +1,3 @@
-os.remove("/storage/emulated/0/脚本/云端脚本sss.lua")
 print('@此脚本lZIMUl已加密！QQ：2908554069^O^')
 function Yicjm(key,code)
    return (code:gsub('..', function (h) return string.char((tonumber(h,16)+256-13 - key + 999999*256)%256) end))
